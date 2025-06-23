@@ -5,9 +5,7 @@
             "destination": "https://singh12320000-104-hima707chs-projects.vercel.app/api/:path*"
             }
         ],
-         "installCommand": "npm ci",
-  "buildCommand": "npm run build",
-  
+    
   "build": {
     "env": {
       "GENERATE_SOURCEMAP": "false",
