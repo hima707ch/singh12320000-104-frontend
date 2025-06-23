@@ -4,5 +4,13 @@
             "source": "/api/:path*",
             "destination": "https://singh12320000-104-hima707chs-projects.vercel.app/api/:path*"
             }
-        ]
+        ],
+        "buildCommand": "npm ci --prefer-offline && npm run build",
+  "installCommand": "npm ci --prefer-offline --no-audit --no-fund",
+  "build": {
+    "env": {
+      "GENERATE_SOURCEMAP": "false",
+      "SKIP_PREFLIGHT_CHECK": "true"
+    }
+  }
         }
